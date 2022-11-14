@@ -238,6 +238,9 @@ footer .container .row div ul > li > a {
 #placeToStay__cards .top-nav ul {
   overflow-x: scroll;
 }
+#placeToStay__cards .top-nav ul::-webkit-scrollbar {
+  display: none;
+}
 
 #placeToStay__cards .top-nav ul > li {
   font-weight: 400;
