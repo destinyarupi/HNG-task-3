@@ -10,8 +10,7 @@ This project was deployed using vercel. Click [here](hng-metabnb.vercel.app) to 
 
 Clone the repo to your local machine using 
 
-```git clone https://github.com/destinyarupi/HNG-task-3.git
-```
+```git clone https://github.com/destinyarupi/HNG-task-3.git```
 
 ## STARTING THE SERVER
 
