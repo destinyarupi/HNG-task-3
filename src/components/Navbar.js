@@ -54,7 +54,7 @@ function Navbar() {
                     <div className="d-flex align-items-center">
                         <a
                             className="btn btn-dark px-3 nav-link__right"
-                            href="https://github.com/bsootstrap/bs-ui-kit"
+                            href="#"
                             role="button"
                             data-bs-toggle="modal" 
                             data-bs-target="#Modal"
@@ -66,25 +66,25 @@ function Navbar() {
                             <div className="modal-dialog modal-dialog-centered">
                                 <div className="modal-content">
                                     <div className="modal-header">
-                                        <h5 className="modal-title px-3 py-2">Connect Wallet</h5>
+                                        <h5 className="modal-title px-3 py-2 ps-md-3">Connect Wallet</h5>
                                         <button type="button" className="btn-close px-3" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
-                                        <p className='px-3'>Choose your preferred wallet:</p>
-                                        <div className="d-grid gap-2 px-3 mb-3">
-                                            <button className="btn mb-2" type="button">
-                                                <div>
-                                                    <img src={metamask__fox} alt="MetaMask" className='pe-3' />
+                                        <p className='px-3 ps-md-3'>Choose your preferred wallet:</p>
+                                        <div className="d-md-grid gap-2 px-md-3 px-0 mb-3">
+                                            <button className="btn mb-md-2 mb-3" type="button">
+                                                <div className='d-flex align-items-center'>
+                                                    <img src={metamask__fox} alt="MetaMask" className='ps-3 pe-3' />
                                                     <span className='brand'>Metamask</span>
                                                 </div>
-                                                <img src={arrow} alt="" />
+                                                <img src={arrow} alt="" className='pe-2'/>
                                             </button>
                                             <button className="btn" type="button">
-                                                <div>
-                                                    <img src={walletconnect} alt="WalletConnect" className='pe-3' />
+                                                <div className='d-flex align-items-center'>
+                                                    <img src={walletconnect} alt="WalletConnect" className='ps-3 pe-3' />
                                                     <span className='brand'>WalletConnect</span>
                                                 </div>
-                                                <img src={arrow} alt="" />
+                                                <img src={arrow} alt="" className='pe-2'/>
                                             </button>
                                         </div>
                                     </div>

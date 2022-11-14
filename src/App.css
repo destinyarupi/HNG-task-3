@@ -42,7 +42,7 @@ nav .nav-link__right {
 }
 
 nav .modal-content {
-  width: 600px;
+  max-width: 600px;
   background: #FFFFFF;
   border-radius: 16px;
 }
@@ -62,11 +62,11 @@ nav .modal-body .brand {
 }
 
 nav .modal-body div > button {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 20px;
-  gap: 135px;
+  padding: 8px 0px;
   border: 1px solid #CFD8DC;
   background: #FFFFFF;
   border-radius: 12px;
@@ -306,6 +306,10 @@ footer .container .row div ul > li > a {
     white-space: nowrap;
   }
 
+  nav .modal-body .brand {
+    font-size: 15px;
+  }
+
 }
 
 @media (min-width: 769px) and (max-width: 1227px) {
@@ -332,6 +336,11 @@ footer .container .row div ul > li > a {
 
   #placeToStay__cards .top-nav ul > li {
     font-size: 18px;
+  }
+
+  #placeToStay__cards .top-nav ul > li {
+    padding-right: 20px;
+    white-space: nowrap;
   }
 
 }
