@@ -4,7 +4,7 @@ This is a HNG Frontend project bootstrapped with [Create React App](https://gith
 
 ## Live Link 
 
-This project was deployed using vercel. Click [here](https://hngi9-frontedntask3.vercel.app/) to view the live link.
+This project was deployed using vercel. Click [here](https://hngi9-frontendtask3.vercel.app/) to view the live link.
 
 ## Getting Started.
 
